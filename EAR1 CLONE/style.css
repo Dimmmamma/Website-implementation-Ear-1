@@ -1,0 +1,256 @@
+/* font-family: 'DM Sans', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap');
+ 
+/* Variables */
+:root{
+  --fontfamily:'DM Sans', sans-serif;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px; 
+}
+.earlogo{
+  width: 111px;
+  height: 40px;
+  
+  }
+.page1{
+  background-color: #029f58;
+  background-image: url("https://www.ear1.com/img/bg-img.png");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  height: 185%;
+  padding: 45px 0px 0px /*76*/ 0px;
+  margin: 0; 
+  /* margin-top: 0; */
+  overflow: hidden;
+}
+.top{
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+  max-width: 10000px;
+  padding-left: 70px;
+  
+  
+  /* gap:402px; */
+  /* min-width: 10px; */
+   /* max-width: 80vh; */
+  /* width:max-content; */
+}
+.navigation{
+  /* padding-right: 45px; */
+  /* padding-left: 0px; */
+  /* margin: 0px; */
+  
+}
+
+.navigation li{
+  display: inline-block;
+  list-style: none;
+  padding: 0px 50px 0px 0px;
+  
+
+}
+.navigation a{
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: var(--fontfamily);
+  /* padding: 26px; */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 116.6%;
+  position: relative;
+  bottom: 10px;
+  letter-spacing: 0.1px;
+  padding: 0px;
+  /* border: 0;
+  box-sizing: border-box; */
+  
+
+}
+/* .navigation {
+  display: flex;
+  flex-direction: row;
+  flex:20%;
+  flex-wrap:wrap ;
+  width: 100%;
+  justify-content: space-evenly; */
+  /* position: fixed; */
+  /* overflow: hidden;
+  white-space: nowrap; */
+  /* display: grid;
+  grid-column: inherit; */
+  
+/* } */
+
+.midpage{
+  /* padding-top: 50px; */
+  padding: 0;
+}
+.topheading{
+  font-family: var(--fontfamily);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 118.6%;
+  letter-spacing: -0.06em;
+  text-align: center;
+  color:#FFF;
+  max-width: 930px;
+  padding-top: 51px; 
+  margin-right: auto;
+  /* margin-right: 210px; */
+  margin-left: auto;
+  margin-bottom: 23px;
+  /* padding: 4% 16% 0% 10%; */
+  /* padding: 2rem 12.5rem 0rem 8rem; */
+  /* padding: 0em 1.2em 0em 1em; */
+}
+.topparagraph1{
+  color: #FFF;
+  font-family: var(--fontfamily);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align:center;
+  padding: 0% 32% 0% 26%;
+  /* padding: 0; */
+  position: relative;
+  bottom: 10px;
+}
+.topparagraph2 a{
+  color: #FFF;
+  font-family: var(--fontfamily);
+  font-size: 20px;
+}
+.topparagraph2 {
+  color: #FFF;
+  font-family: var(--fontfamily);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align:center;
+  padding: 0% 32% 0% 26%;
+  position: relative;
+  bottom: 9px;
+}
+.bullet{
+  color: #FFF;
+  font-family: var(--fontfamily);
+  font-size: 30px;
+  font-weight: 450;
+  line-height: 30px;
+  position: relative;
+  top: 4px;
+  padding: 0 5px 0px 5px;
+}
+.playstore,.appstore{
+  width: 260px;
+  margin-left: 26px;
+  margin-top: 13px;
+}
+.downloads{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-right: 100px;
+}
+.phones{
+  position: relative;
+  display: grid;
+  place-items: center;
+  top: 70px;
+  right: 35px;
+}
+.phone1,.phone2,.phone3{
+  position: absolute;
+  top: 1px;
+}
+
+.phone2,.phone1{
+  top:50px;
+  transition-duration: 1000ms;
+  transition-delay: 10ms;
+  transition-property: transform;
+}
+/* .phone2 :hover,.phone1 :hover{
+  transform: rotate(45deg);
+} */
+.phone1 {
+  transform: rotate(21.9deg);
+  padding-left: 392px;
+  top:94px;
+}
+.phone2 {
+  transform: rotate(-21.9deg);
+  padding-right: 392px;
+  padding-top: 0px;
+  top: 94px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .phone2{
+  animation-name: left;
+  animation-direction: alternate;
+  transition-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-timeline: 7s ;
+  animation: left 7s alternate infinite;
+}
+
+@keyframes left {
+  100%{
+    transform: translateY(10%);
+    opacity: 0;
+  }
+  50%{
+    opacity: 1;
+  }
+  100%{
+    transform: translateX(80vh);
+    opacity: 0;
+  }
+} */
+
+
+/* MEDIA QUERIES */
+@media screen and (max-width:1024px){
+  
+}
+@media screen and (max-width:768px){
+  
+}
+@media screen and (max-width:720px){
+ .navigation{
+  display: none;
+ } 
+ .topheading{
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 118.6%;
+  letter-spacing: -0.06em;
+  text-align: center;
+  color:#FFF;
+  padding: 5% 20% 0% 20%;
+ }
+}

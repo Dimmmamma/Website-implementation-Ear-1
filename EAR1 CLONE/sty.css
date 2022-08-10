@@ -1,0 +1,286 @@
+/* font-family: 'DM Sans', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap');
+ 
+/* Variables */
+:root{
+  --fontfamily:'DM Sans', sans-serif;
+}
+
+hmtl{
+  box-sizing: border-box;
+}
+*, *::before, *::after{
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+.page1{
+  background-color: #029F58;
+  overflow: hidden;
+  background-image: url(./Images/Rectangle.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  min-height: 189%;
+}
+
+.earlogo{
+  width:111px;
+  margin-left: 5%;
+  /* max-width: min-content; */
+  /* position: absolute;
+  bottom: -1.25%;
+  top: 8%;
+  left: 0%;
+  right: 0%; */
+}
+
+.top{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 49px;
+}
+.mediaquerybox{
+  display: block;
+}
+.clickhere{
+  /* display: none; */
+}
+.navigation li{
+  text-decoration: none;
+  list-style: none;
+  /* display: inline-flex; */
+  /* padding-right: 3.15rem; */
+  
+}
+
+.navigation a{
+  text-decoration: none;
+  font-family: var(--fontfamily);
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  
+}
+
+.navigation{
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+  gap: 50px;
+  margin-right: 70px;
+  /* position: relative;
+  bottom: 4.5px;
+  margin-right: 24px; */
+  /* position: absolute;
+  width: 56px;
+  height: 23px;
+  left: 700px;
+  top: 49px;  */
+  
+}
+
+.topheading{
+  font-family: var(--fontfamily);
+  color: #fff;
+  font-size: 120px;
+  font-weight: 700;
+  line-height: 100px;
+  letter-spacing: -0.06em;
+  text-align: center;
+  padding: 7.5% 20% 0% 18%;
+}
+
+.topparagraph1{
+  font-family: var(--fontfamily);
+  color: #fff;
+  font-size: 18.6px;
+  font-weight: 500;
+  line-height: 150%;
+  text-align: center;
+  opacity: 0.9;
+  padding: 2.5% 30% 0% 28%;
+}
+.topparagraph2{
+  display: none;
+}
+.downloads{
+  display: flex;
+  justify-content: center;
+  padding-right: 30px;
+  padding-top: 60px;
+}
+.downloads img{
+   max-width: 260px;
+   
+}
+.appstore{
+ padding-left: 8px;
+}
+.playstore{
+ padding-right: 8px;
+}
+.phones{
+  display: grid;
+  position: relative;
+  place-items: center;
+}
+/* right phone */
+.phone1{
+  position: absolute;
+  width: 560px;
+  top:170px;
+  right: 204px;
+  transform: rotate(22.37deg);
+}
+/* left phone */
+.phone2{
+  position:absolute;
+  width:560px;
+  top:170px;
+  left:204px;
+  transform: rotate(-22.37deg);
+}
+.phone3 {
+  position: absolute;
+  width: 560px;
+  top:53px;
+}
+
+/* Page 2 */
+.page2{
+  background-image: url(./Images/noise.png);
+  background-repeat: no-repeat;
+  height: 79%;
+  z-index: 1;
+}
+/* left image */
+.aboutimage1{
+  position: absolute;
+  left: 2.4%;
+  bottom: -125%;
+  z-index: -1;
+}
+/* right image */
+.aboutimage2{
+ position: absolute;
+ right: 0px;
+ width: 550;
+ z-index: -1;
+}
+.page2heading{
+  color: #007640;
+  font-family: var(--fontfamily);
+  font-size: 72px;
+  font-weight: 500;
+  line-height: 73px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  padding-right: 49%;
+  position: absolute;
+  bottom: -134.3%;
+}
+.page2paragraph{
+  font-family: var(--fontfamily);
+  color: black;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  opacity: 0.6;
+  padding: 0px 500px 40px 0px;
+  position: absolute;
+  top: 237.5%;
+  
+}
+.page2writing{
+  /* position: absolute;
+  bottom:-161.5%; */
+  margin-left: 97.6px;
+}
+
+
+
+/* PAGE 3 */
+.page3{
+  display: flex;
+  background-color: #fff;
+  height: 60%;
+  padding: 5%;
+  padding-left: 15%;
+}
+.page3image1{
+ padding-bottom: 20px;
+ 
+}
+.page3image2{
+ width: 380px;
+ padding-right: 70px;
+ position: absolute;
+ bottom: -240%;
+ left: 63%;
+}
+.page3heading{
+  font-family: var(--fontfamily);
+  font-size: 61px;
+  font-weight: 500;
+  line-height: 69px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: #121212;
+  padding-bottom: 21px;
+}
+.page3paragraph{
+  font-family: var(--fontfamily);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #121212;
+  opacity: 0.6;
+  
+}
+.page3firsthalf{
+  padding-right: 576px;
+  padding-left: 19px;
+}
+
+
+
+
+
+/* MEDIA QUERIES */
+/* Phone @428px */
+@media screen and (max-width:428px) {
+  .navigation li{
+    display: none;
+  }
+  .earlogo{
+    width: 87px;
+    margin-left: 5.5%;
+  }
+  .menu{
+    display: flex;
+    align-self: center;
+    position: absolute;
+    top: 30.5px;
+    right: 23px;
+    
+  }
+  .top{
+    padding-top: 35px;
+  }
+  .topheading{
+    font-size: 50px;
+    line-height: 4rem;
+    padding-top: 80px;
+  }
+
+
+}
